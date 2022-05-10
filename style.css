@@ -18,17 +18,31 @@ nav {
     text-align: center;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
 }
 
 #nav-links {
     font-size: 18px;
-    height: 40px;
-    width: 60vw;
     text-align: center;
     display: flex;
     justify-content: space-around;
     align-items: center;
 
+}
+
+#nav-links > * {
+    width: 20vw;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#nav-links > *:hover {
+    background-color: white;
+    color: black;
+    
 }
 
 #profile-img {
@@ -39,7 +53,7 @@ nav {
 #profile {
     font-size: 20px;
     height: 40px;
-    width: 20vh;
+    width: 20vw;
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -62,4 +76,19 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+#input-bar {
+    border: 2px solid black;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
